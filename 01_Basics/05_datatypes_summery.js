@@ -35,3 +35,29 @@ const myFunction=function (){
 
 
 
+///////////////////memory/////////
+//stsck , heap
+//all premitive type- stack--here whatever we work on data we work on its capy
+//all non premetive- heap--- here whatever we do with a data we do it as a reference -- means whatever we change anywhere it is changed in its original path
+//
+//example 
+let myYoutubename= "hitesh.com";
+let anothername= myYoutubename;
+anothername="chaiaurcode";
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let user1={
+    email:"user@gmail.com",
+    upi:"user@upi"
+}
+
+let user2=user1;
+
+user2.email="devraj@gml/coom";
+console.log(user1.email);
+console.log(user2.email);
+
+
+
