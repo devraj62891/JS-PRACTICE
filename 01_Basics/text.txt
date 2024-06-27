@@ -1,0 +1,21 @@
+what is the difference between const and var
+ now we dont use var-- js use to have a problem {}= this is called scope, in initial days js use to not work on scope 
+ now we only use const and let-- this follows teh rule of scope
+ prefer not to use var- because of suue in scope  and block
+
+
+ data types:PREMITITVE DATA TYPES
+ 1. number = 2 to the power of 53
+ 2. string==>"
+ 3. boolean => true/false
+ 3. null => standalone value => let state=null;
+ 4. bigint
+ 5. undefined => value not defined e.g. let state;
+ 6. symbol => unique
+
+
+ interview== typeof(null)== this is object
+ typeof(undefined) == undefined type
+
+ objects
+ 
