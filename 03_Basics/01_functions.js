@@ -26,3 +26,23 @@ console.log("result : ",result);
 //Note: when we dont pass any arguments then function returns undefined value
 //== : normal equality operator that converts the value to the same data type 
 //=== strict equal operator which checks strictly if both the value ore of same type
+
+
+
+
+function calculateCartPrice(num1){
+    return num1;
+
+}
+
+console.log(calculateCartPrice(2));
+
+//rest operator
+
+
+function calculateCartPrice2(...num1){
+    return num1;
+
+}
+
+console.log(calculateCartPrice2(2,5,6,76,6));
