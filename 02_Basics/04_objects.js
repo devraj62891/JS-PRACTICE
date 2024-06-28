@@ -40,3 +40,24 @@ const users=[
 ]
 
 
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseTeacher:"devraj"
+}
+
+// course.courseTeacher
+
+const {courseTeacher:instructor}=course//destructuring an object
+console.log(instructor);
+
+
+
+///json
+
+// {
+//     "name":"devraj",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
